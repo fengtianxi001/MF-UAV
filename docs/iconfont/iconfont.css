@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'mf-icon'; /* Project id 4824748 */
+  src: url('iconfont.woff2?t=1739238055960') format('woff2');
+}
+
+.mf-icon {
+  font-family: 'mf-icon' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mf-icon-sun:before {
+  content: '\e876';
+}
+
+.mf-icon-moon:before {
+  content: '\e62c';
+}
+
+.mf-icon-github:before {
+  content: '\e600';
+}
