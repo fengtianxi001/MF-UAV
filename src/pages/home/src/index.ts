@@ -1,0 +1,6 @@
+export { default as Compass } from './Compass/index.vue'
+export { default as Params } from './Params/index.vue'
+export { default as PlayerProfile } from './PlayerProfile/index.vue'
+export { default as UavProfile } from './UavProfile/index.vue'
+export { default as Gradienter } from './Gradienter/index.vue'
+export { default as Location } from './Location/index.vue'

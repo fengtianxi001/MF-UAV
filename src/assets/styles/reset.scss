@@ -1,0 +1,48 @@
+.arco-modal-simple .arco-modal-footer {
+  text-align: right;
+}
+.arco-menu-selected {
+  background-color: var(--color-fill-2) !important;
+}
+.remove-confirm-wrap {
+  .remove-confirm-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--color-neutral-6);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    list-style: circle;
+    .remove-confirm-word {
+      position: relative;
+      user-select: none;
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 2px);
+        content: '';
+        border-bottom: 1px double var(--color-neutral-3);
+      }
+    }
+    &::before {
+      position: relative;
+      left: -10px;
+      display: inline-block;
+      flex-shrink: 0;
+      width: 5px;
+      height: 5px;
+      content: '';
+      background-color: rgb(var(--primary-6));
+      border-radius: 50%;
+    }
+  }
+}
+.arco-menu-inner {
+  overflow-y: hidden;
+}
