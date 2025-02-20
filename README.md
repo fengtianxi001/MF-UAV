@@ -8,10 +8,16 @@
   <img src="https://github.com/fengtianxi001/MF-UavMonitor/blob/master/screenshots/screenshot01.png?raw=true" title="screenshot">
 </h1>
 
-//todo 无人机操作
+## 更新日志
 
-- 静止时不要移动
-- 镜头跟随着机头进行旋转 （切换第一人称视角）
-- 面板数据跟随飞行参数进行更新
-- 飞行参数告警
-- 飞行器样式更新
+##### v2.0.0
+
+- [x] 新增信息面板
+- [x] 新增陀螺水平仪
+- [x] 新增指南针面板
+- [x] 新增高度仪面板
+- [x] 对项目代码结构进行简化
+- [x] 对项目界面进行优化
+- [ ] 镜头跟随着机头
+- [ ] 切换第一人称视角
+- [ ] 飞行参数告警
